@@ -1,0 +1,165 @@
+/*开头*/
+.container{
+	min-width: 1230px;
+	margin:0 auto;
+}
+.header{
+	background-color: #f5f5f5;
+}
+.header>.naving{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.naving>.naving-left{
+	float: left;
+	width: 150px;
+	margin:20px auto;
+}
+.naving>.naving-right{
+	margin-right: 80px;
+	position: absolute;
+	right: 0;
+}
+.naving-right>ul{
+	line-height: 100px;
+	overflow: hidden;
+}
+.naving-right>ul>li{
+	display: inline;
+	margin: 0 20px;
+	position: relative;
+}
+.naving-right>ul>li:nth-child(2) a{
+	color: #045CFF;
+}
+.naving-right>ul>li:nth-child(2) a.r{
+	border: 2px solid #045CFF;
+	width: 120%!important;
+	left: -6px;	
+}
+.naving-right>ul>li a{
+	color: #000;
+}
+.naving-right>ul>li a.r{
+	position: absolute;
+	bottom: -7px;
+	left: 45%;
+	width: 0;
+	transition: width 0.5s;
+}
+.naving-right>ul>li a.r1{
+	position: absolute;
+	bottom: -7px;
+	right: 45%;
+	width: 0;
+	transition: width 0.5s;	
+}
+.naving-right>ul>li:hover a{
+	color: #045CFF;
+}
+.naving-right>ul>li:hover a.r{
+	border: 2px solid #045CFF;
+	width: 60%;	
+}
+.naving-right>ul>li:hover a.r1{
+	border: 2px solid #045CFF;
+	width: 60%;	
+}
+/*内容*/
+.container>.content{
+	width: 1000px;
+	margin: 25px auto 0;
+}
+.content>.content-top>.tianlong{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.content>.content-top>.tianlong div{
+	font-size: 10px;
+}
+.content-top-img>ul{
+	overflow: hidden;
+}
+.content-top-img>ul>li{
+	width: 470px;
+	float: left;
+}
+.content-top-img>ul>.even{
+	margin-left:40px;
+}
+.content-top-img>ul>li p{
+	text-align: center;
+	margin:20px;
+}
+.content-bottom>.about{
+	margin: 30px auto;
+}
+.content-bottom>.dingwei{
+	overflow: hidden;
+}
+.dingwei>.dingwei-img{
+	float: left;
+	width: 450px;
+}
+
+.dingwei>.dingwei-wenzi{
+	width: 470px;
+	float: right;
+	margin-top: 34px;
+}
+.dingwei-top>p{
+	line-height: 35px;
+	color: #7D7D7D;
+}
+.dingwei-top>.dingwei-1{
+	text-indent: 45px;
+}
+.dingwei-bottom{
+	margin-top: 30px;
+}
+.dingwei-bottom>p{
+	line-height: 30px;
+}
+.dingwei>div>p:nth-child(1){
+	text-indent: 50px;
+}
+.dingwei>div>p:nth-child(){
+	margin-top: 10px;
+}
+/*结尾*/
+.end{
+	background-color: #21283A;
+	margin-top:60px;
+}
+.end>.ending{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.end>.ending>.ending-wenzi{
+	position:relative;
+	margin:30px auto;
+}
+.ending-wenzi>span{
+	height: 20px;
+	border-left: 2px solid #fff;
+	margin:0 20px;
+	position: relative;
+	top: 4px;
+}
+.ending-wenzi a{
+	color: #fff;
+	font-size:20px;
+}
+.ending>.wenzi-bottom{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	margin:20px;
+}
+.wenzi-bottom>span{
+	margin: 10px auto;
+}

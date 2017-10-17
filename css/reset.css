@@ -1,0 +1,27 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,img,textarea,input,ul,ol,li{
+	margin:0;
+	padding: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+input,textarea{
+	outline: none;
+}
+
+span,i{
+	display: inline-block;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
